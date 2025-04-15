@@ -1,4 +1,21 @@
-# Day1
+# Angular Products Page
+
+
+
+
+A simple product showcase application built with Angular, featuring a responsive design for displaying various products.
+
+## Features
+
+- Responsive product card layout
+- Navigation bar with logo
+- Simple footer component
+- About page
+- Product categories
+
+## Deployment
+
+This project is deployed on Netlify at [https://sunny-rabanadas-180fcb.netlify.app/](https://sunny-rabanadas-180fcb.netlify.app/)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
 

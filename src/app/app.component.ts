@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import FooterComponent from './footer/footer.component';
-import NavBarComponent from './navBar/navbar.component';
+import {FooterComponent} from './footer/footer.component';
+import {NavBarComponent} from './navBar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { CategoriesComponent } from './categories/categories.component';

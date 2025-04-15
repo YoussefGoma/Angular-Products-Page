@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 
 })
 
-export default class FooterComponent {
+export class FooterComponent {
     currentYear: number = new Date().getFullYear();
     logo:string = 'images/logo.png'
     constructor() { }

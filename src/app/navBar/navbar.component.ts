@@ -2,11 +2,11 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "app-navBar",
-    templateUrl: "./navBar.component.html",
-    styleUrls: ["./navBar.component.css"],
+    templateUrl: "./navbar.component.html",
+    styleUrls: ["./navbar.component.css"],
 
 })
 
-export default class NavBarComponent {
+export class NavBarComponent {
     logo:string = 'images/logo.png'
 }

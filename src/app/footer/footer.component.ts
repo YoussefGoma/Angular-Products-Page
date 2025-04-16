@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, input } from "@angular/core";
 
 @Component({
     selector: "app-footer",
@@ -9,6 +9,7 @@ import { Component } from "@angular/core";
 
 export class FooterComponent {
     currentYear: number = new Date().getFullYear();
-    logo:string = 'images/logo.png'
+
+    logo = input()
     constructor() { }
 }

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, input } from "@angular/core";
 
 @Component({
     selector: "app-navBar",
@@ -8,5 +8,5 @@ import { Component } from "@angular/core";
 })
 
 export class NavBarComponent {
-    logo:string = 'images/logo.png'
+    logo = input()
 }

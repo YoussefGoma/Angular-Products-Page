@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 interface Product {
   id: number;
   name: string;
@@ -9,7 +10,7 @@ interface Product {
 
 @Component({
   selector: 'app-products',
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })

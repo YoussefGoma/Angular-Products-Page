@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {FooterComponent} from './footer/footer.component';
 import {NavBarComponent} from './navBar/navbar.component';
@@ -9,7 +9,7 @@ import { CategoriesComponent } from './categories/categories.component';
 
 @Component({
   selector: 'app-root',
-  imports: [NgbModule,RouterOutlet,FooterComponent,NavBarComponent,AboutComponent,ProductsComponent,CategoriesComponent],
+  imports: [NgbModule,RouterOutlet,FooterComponent,NavBarComponent,AboutComponent,ProductsComponent,CategoriesComponent,RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
